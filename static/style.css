@@ -1,0 +1,85 @@
+/* Improved static/style.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 50px 60px;
+    border-radius: 20px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 400px;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+form input[type="text"] {
+    width: 65%;
+    padding: 14px 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    margin-right: 10px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.4);
+    transition: 0.3s;
+}
+
+form input[type="text"]:focus {
+    box-shadow: 0 0 20px #9f7aea;
+}
+
+form button {
+    padding: 14px 30px;
+    border-radius: 30px;
+    border: none;
+    background: #9f7aea;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(159, 122, 234, 0.6);
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #7f5de8;
+    box-shadow: 0 6px 30px rgba(127, 93, 232, 0.8);
+}
+
+.weather-info {
+    margin-top: 35px;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.weather-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.weather-info p {
+    margin: 8px 0;
+}
+
+.error {
+    margin-top: 20px;
+    font-weight: 700;
+    color: #ff6b6b;
+    text-shadow: none;
+}
